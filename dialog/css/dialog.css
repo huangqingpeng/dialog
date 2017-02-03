@@ -1,0 +1,115 @@
+.dialog_box{
+	position:absolute;
+}
+.dialog_box.a{
+	background: #eee;
+	border:1px solid #666;
+}
+.dialog_box.b{
+	background: #eee;
+	border:1px solid #006;
+}
+.dialog_box .title{
+	height:35px;
+	text-align: left;
+	line-height: 35px;
+}
+.dialog_box .close{
+	position:absolute;
+	top:0;
+	right:0;
+	width:35px;
+	text-align: center;
+	line-height: 35px;
+	height:35px;
+	cursor: pointer;
+}
+
+.dialog_box.a .title{
+	background:#666;
+	color:#fff;
+}
+
+.dialog_box.a .close{
+	background:#900;
+	color:#fff;
+}
+
+.dialog_box.b .title{
+	background:#009;
+	color:#fff;
+}
+
+.dialog_box.b .close{
+	background:#006;
+	color:#fff;
+}
+
+.dialog_box.b .close:hover{
+	background:#66f;
+	color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

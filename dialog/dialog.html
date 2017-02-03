@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>自定义弹框</title>
+		<link rel="stylesheet" href="css/dialog.css" />
+	    <script type="text/javascript" src="js/dialog.js" ></script>
+	</head>
+	<body>
+		<button id="btn">自定义弹框</button>
+		<script>
+		    alert("自定义弹窗测试");
+			var oBtn=document.querySelector("#btn");
+			oBtn["onclick"]=function(){
+				var that=this;
+				var dialog=new Dialog({
+					      class:"b",
+					      title:"新窗口",
+					      content:"第一个弹窗口",
+					      width:400,
+					      height:300,
+					      top:100,
+					      left:100,
+					      drag:true,
+					      deleteCallback:function(){
+					      	oBtn.style.background="pink";
+					      }
+				     });
+				dialog.show();
+			}
+		</script>
+	</body>
+</html>
